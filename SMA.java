@@ -3,7 +3,7 @@
 	Email : alsahercoder@gmail.com
 	Date : 14-sep-2020
 	
-	Calculte Simple Moving Average (SMA) from an Array
+	Calculate Simple Moving Average (SMA) from an Array
 */
 
 class simple_moving_avg {
