@@ -14,8 +14,8 @@ class simple_moving_avg {
        System.out.print("The simple moving averages are: ");
         for ( float day_num = 1; day_num <= 5; day_num++ ) {
  
-            float sum =0;
-            float avg =0;        
+            float sum = 0;
+            float avg = 0;        
             for( int i = 0; i < day_num; i++ ) 
                 sum+=arr[i];
  
