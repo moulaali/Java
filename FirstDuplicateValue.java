@@ -1,3 +1,9 @@
+/*
+	Author : Shaik Faizan Roshan Ali
+	Email : alsahercoder@gmail.com
+	Date : 15-sep-2020
+	Finds the first duplicate number that has the least index number.
+*/
 import java.util.*;
 
 public class FirstDuplicateValue {
