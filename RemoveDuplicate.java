@@ -26,12 +26,11 @@ public class RemoveDuplicate{
         }        
             
         
-	   System.out.println("The array with no Duplicate Values : ");
+		System.out.println("The array with no Duplicate Values : ");
 	   
-	   for (int printIndex = 0; printIndex < outputArray.size(); printIndex++) { 		      
-	          
+		for ( int printIndex = 0; printIndex < outputArray.size(); printIndex++) { 		      
 	          System.out.print(outputArray.get(printIndex) + ", "); 		
-	    }   
+		}   
 
     }
 }
