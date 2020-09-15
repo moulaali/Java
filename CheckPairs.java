@@ -1,3 +1,9 @@
+/*
+	Author : Shaik Faizan Roshan Ali
+	Email : alsahercoder@gmail.com
+	Date : 15-sep-2020
+	This program check for all the pair that sum upto a given number.	
+*/
 import java.util.*;
 
 class CheckPairs {
