@@ -16,7 +16,7 @@ public class RemoveDuplicate{
         
         ArrayList<Integer> outputArray = new ArrayList<Integer>();
         
-        for ( int trueIndex = 0; trueIndex < duplicateArr.length; trueIndex++ ) {
+       	for ( int trueIndex = 0; trueIndex < duplicateArr.length; trueIndex++ ) {
 
             if ( outputArray.contains(duplicateArr[trueIndex]) == false ) {
 
@@ -25,12 +25,12 @@ public class RemoveDuplicate{
             }   
         }        
             
-        
-		System.out.println("The array with no Duplicate Values : ");
+       	System.out.println("The array with no Duplicate Values: ");
 	   
-		for ( int printIndex = 0; printIndex < outputArray.size(); printIndex++) { 		      
-	          System.out.print(outputArray.get(printIndex) + ", "); 		
-		}   
+	for (int printIndex = 0; printIndex < outputArray.size(); printIndex++) { 		      
+	          
+	    System.out.print(outputArray.get(printIndex) + ", "); 		
+	}   
 
     }
 }
