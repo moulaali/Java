@@ -8,18 +8,37 @@
 
 import java.util.*;
 
-class reverse_array_v2 {
+class ReverseArray {
 	public static void main (String[] args) {
 		
-        int[] arr = {10, 20, 30, 40, 50};
+		int[] inputArray = {10, 20, 30, 40, 50};
+
+        PrintReverseArray(inputArray);
+        ReverseArrayUsingSwap(inputArray);
+    }
+    
+    public static void PrintReverseArray(int arr[]) {
         
+        int reverseArray[];
+	   	reverseArray = new int[arr.length];
+	   
+	   	for ( int reverseArrayIndex = 0; reverseArrayIndex <= arr.length-1; reverseArrayIndex++ ) {
+	            
+	    	reverseArray[reverseArrayIndex] = arr[arr.length - 1 - reverseArrayIndex];          
+	   }
+		
+	   System.out.println("Reversed array : " + Arrays.toString(reverseArray));
+    }
+    
+    public static void ReverseArrayUsingSwap(int arr[]) {
+    
         for ( int i = 0; i < arr.length/2; i++ ) {
             
-            int temp = arr[i];
-            arr[i] = arr[arr.length - 1 - i];
-            arr[arr.length -1 -i] = temp;
+            arr[i] = arr[i] + arr[arr.length - 1 - i];
+            arr[arr.length -1 -i] = arr[i] - arr[arr.length -1 -i];
+            arr[i] = arr[i] - arr[arr.length - 1 - i];   
         }
         
-        System.out.println("Reverse arr : " + Arrays.toString(arr));
-   }
+        System.out.println("Reverse Array using Swap : " + Arrays.toString(arr));
+    } 
 }
