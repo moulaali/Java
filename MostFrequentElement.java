@@ -9,7 +9,7 @@
 
 import java.util.*;
 
-public class most_freq {
+public class MostFrequentElement {
     public static void main(String[] args) {
     
         int[] arr = {1,1,2,2,2,5,5,5,2,3};
