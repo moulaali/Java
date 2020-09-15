@@ -11,9 +11,7 @@ public class FirstDuplicateValue {
 	
 	int[] inputArray = {1, 2, 3, 6, 7, 3, 0, 0};
 	
-	duplicateValue(inputArray);
-    
-
+	duplicateValue(inputArray);    
     }
     
     public static void duplicateValue(int checkArray[]) {
