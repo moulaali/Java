@@ -6,7 +6,7 @@
 	Calculate Simple Moving Average (SMA) from an Array
 */
 
-class simple_moving_avg {
+class SimpleMovingAverage {
     public static void main (String[] args) {
  
        int[] arr={1, 2, 3, 4, 5, 12, 11, 12, 9, 13};
