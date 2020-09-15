@@ -10,7 +10,8 @@ public class FirstDuplicateValue {
     public static void main(String args[]) {
 	
 	int[] inputArray = {1, 2, 3, 6, 7, 3, 0, 0};
-	duplicateValue(inputArray);    
+	
+    duplicateValue(inputArray);    
         
     }
     
