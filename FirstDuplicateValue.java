@@ -3,7 +3,7 @@
 	Email : alsahercoder@gmail.com
 	date : 15-sep-2018
 	
-	This program finds the first duplicate value with least index number
+	This program finds the first duplicate value with least index number.
 */
 	
 import java.util.*;
