@@ -18,19 +18,18 @@ public class FirstDuplicateValue {
     
     public static void duplicateValue(int checkArray[]) {
 	
-	for ( int trueIndex = 0; trueIndex < checkArray.length; trueIndex++ ) {
+		for ( int trueIndex = 0; trueIndex < checkArray.length; trueIndex++ ) {
 	    
-	    int trueValue = checkArray[trueIndex];
+	    	int trueValue = checkArray[trueIndex];
 	     
-	    for ( int checkIndex = trueIndex + 1; checkIndex < checkArray.length; checkIndex++ ) {
+	    	for ( int checkIndex = trueIndex + 1; checkIndex < checkArray.length; checkIndex++ ) {
 	    
-		if ( trueValue == checkArray[checkIndex] ) {
+				if ( trueValue == checkArray[checkIndex] ) {
 		 
-		    System.out.println("The duplicate number: " + trueValue + " with least Index " + trueIndex );
-		    System.exit(0);
+		    		System.out.println("The duplicate number: " + trueValue + " with least Index " + trueIndex );
+		    		System.exit(0);
+				}
+			}
 		}
-
-	    }
-	}
     }
 }
