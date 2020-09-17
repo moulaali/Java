@@ -13,7 +13,6 @@ public class RearrangeBinary {
         int[] binArray = {0, 1, 0, 0, 1, 0, 0};
         
         rearrangeBin(binArray);
-    
     }
     
     public static void rearrangeBin(int rearrangeArray[]) {
@@ -26,23 +25,23 @@ public class RearrangeBinary {
         for ( checkIndex = 0; checkIndex < rearrangeArray.length; checkIndex++) {
             
             if ( rearrangeArray[checkIndex] == 0 )
-            zeros++; // 5 
+            zeros++;  
             
             else
-            ones++; // 2
+            ones++; 
         }
         
-        for ( zeroEntry = 0; zeroEntry < zeros; zeroEntry++ ) {
-            
+        for ( zeroEntry = 0; zeroEntry < zeros; zeroEntry++ ) 
             rearrangeArray[zeroEntry] = 0;
-        }
         
         int oneEntryIndex = zeroEntry;
+	    
         for (int oneEntry = 0; oneEntry < ones; oneEntry++) {
             
             rearrangeArray[oneEntryIndex] = 1;
             oneEntryIndex++;
         }
+	    
         System.out.println(Arrays.toString(rearrangeArray));
     }
 }
