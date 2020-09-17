@@ -1,4 +1,10 @@
-
+/*
+	Author : Shaik Faizan Roshan Ali
+	Email : alsahercoder@gmail.com
+	Date : 17-sep-2020
+	This program arranges binary array.
+    Status : Failed.
+*/
 
 import java.util.*;
 
