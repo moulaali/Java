@@ -25,8 +25,10 @@ class CheckPairs {
             for (int secondIndex = firstIndex + 1; secondIndex < arr.length; secondIndex++) {
             
                 if ( sum == arr[firstIndex] + arr[secondIndex] ) {
-                	System.out.println("The pair of number that make up the sum " + sum + " are " + arr[firstIndex] + " & "+ arr[secondIndex] );
-				}
+                
+			System.out.println("The pair of number that make up the sum " + sum + " are " + arr[firstIndex] + " & "+ arr[secondIndex] );
+				
+		}
 				
                 else
                     continue;
