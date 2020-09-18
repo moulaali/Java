@@ -13,8 +13,6 @@ public class GetPrefixOfString {
 		String strInput1 = "contradict"; 
 	    String strInput2 = "contrapositive";
 	       getPrefixLength(strInput1, strInput2);
-
-		
 	}
 	
 	public static void getPrefixLength(String str1, String str2) {
@@ -27,7 +25,7 @@ public class GetPrefixOfString {
 	            
 	        else
 	            break;
-	       
+	  
 	    }
 	    
 	    System.out.println("Common prefix length is " + prefixLength);
