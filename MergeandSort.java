@@ -23,8 +23,8 @@ public class MergeSortedArray {
 	    int newArraySize = inputArray2.length + inputArray1.length;
 	    int[] mergeArray = new int[ newArraySize ];
 	    
-      /* 
-      Personal merge code instead of Java method 
+      	    /* 
+            Personal merge code instead of Java method 
         
 	    for ( arrOne = 0; arrOne < inputArray1.length; arrOne++ ) {
 	        
@@ -68,7 +68,6 @@ public class MergeSortedArray {
                 
             }
 
-            
         }
         
         System.out.println("Merged & Sorted Array : " + Arrays.toString(inputArray));
