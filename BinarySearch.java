@@ -23,8 +23,7 @@ public class BinarySearch {
 	int lowIndex = 0;
 	int highIndex = searchArray.length - 1;
 	int mid;
-	
-	
+		
 	while ( lowIndex <= highIndex ) {
 	    
 	    mid = lowIndex + ( highIndex - lowIndex) / 2;
@@ -33,12 +32,14 @@ public class BinarySearch {
 		index = mid;
 		break;
 	    }
+	
 	    else if ( searchArray[mid] < key ) 
 		lowIndex = mid + 1;
 	    
 	    else if ( searchArray[mid] > key ) 
 		highIndex = mid - 1;
 	}
+	    
 	System.out.println("Value " + key + " is found at index " + index);
 	return 0;
     }
