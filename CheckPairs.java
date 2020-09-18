@@ -9,7 +9,7 @@ import java.util.*;
 class CheckPairs {
 	public static void main (String[] args) {
 		
-		Scanner sumInput = new Scanner(System.in);
+	Scanner sumInput = new Scanner(System.in);
         int[] checkArray = {1, 2, 3, 4, 5, 6, 7, 8};
         System.out.println("Enter the sum value you want the pair to be : ");
         int checkSum = sumInput.nextInt();
