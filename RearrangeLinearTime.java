@@ -25,10 +25,10 @@ public class RearrangeBinary {
         for ( checkIndex = 0; checkIndex < rearrangeArray.length; checkIndex++) {
             
             if ( rearrangeArray[checkIndex] == 0 )
-            zeros++;  
+            	zeros++;  
             
             else
-            ones++; 
+            	ones++; 
         }
         
         for ( zeroEntry = 0; zeroEntry < zeros; zeroEntry++ ) 
