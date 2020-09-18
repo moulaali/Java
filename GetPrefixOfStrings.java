@@ -2,7 +2,7 @@
 	Author : Shaik Faizan Roshan Ali
 	Email : alsahercoder@gmail.com
 	Date : 18-sep-2020
-	This program returns the longest prefix among two strings.
+	This program returns the longest prefix among two strings
 */
 
 import java.io.*;
