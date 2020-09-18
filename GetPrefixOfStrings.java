@@ -10,9 +10,9 @@ import java.io.*;
 public class GetPrefixOfString {
 	public static void main (String[] args) {
 		
-		String strInput1 = "contradict"; 
+	    String strInput1 = "contradict"; 
 	    String strInput2 = "contrapositive";
-	       getPrefixLength(strInput1, strInput2);
+	    getPrefixLength(strInput1, strInput2);
 	}
 	
 	public static void getPrefixLength(String str1, String str2) {
