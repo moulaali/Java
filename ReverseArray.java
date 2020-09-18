@@ -19,14 +19,14 @@ class ReverseArray {
     public static void PrintReverseArray(int arr[]) {
         
         int reverseArray[];
-	   	reverseArray = new int[arr.length];
+	reverseArray = new int[arr.length];
 	   
-	   	for ( int reverseArrayIndex = 0; reverseArrayIndex <= arr.length-1; reverseArrayIndex++ ) {
+	for ( int reverseArrayIndex = 0; reverseArrayIndex <= arr.length-1; reverseArrayIndex++ ) {
 	            
 	    	reverseArray[reverseArrayIndex] = arr[arr.length - 1 - reverseArrayIndex];          
-	   }
+	}
 		
-	   System.out.println("Reversed array : " + Arrays.toString(reverseArray));
+	System.out.println("Reversed array : " + Arrays.toString(reverseArray));
     }
     
     public static void ReverseArrayUsingSwap(int arr[]) {
