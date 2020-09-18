@@ -10,7 +10,7 @@ import java.util.*;
 class ReverseArray {
 	public static void main (String[] args) {
 		
-		int[] inputArray = {10, 20, 30, 40, 50};
+	int[] inputArray = {10, 20, 30, 40, 50};
 
         PrintReverseArray(inputArray);
         ReverseArrayUsingSwap(inputArray);
