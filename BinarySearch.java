@@ -2,7 +2,6 @@
 	Author : Shaik Faizan Roshan Ali
 	Email : alsahercoder@gmail.com
 	Date : 18-sep-2020
-	Source: https://leetcode.com/problems/valid-mountain-array/
 	Binary search algorithm for linearly sorted array.	
 */
 import java.util.*;
