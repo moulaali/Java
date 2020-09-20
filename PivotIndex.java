@@ -2,7 +2,7 @@
 	Author : Shaik Faizan Roshan Ali
 	Email : alsahercoder@gmail.com
 	Date : 20-sep-2020
-  Source: https://leetcode.com/problems/find-pivot-index/
+  	Source: https://leetcode.com/problems/find-pivot-index/
 	This program pivot for which LHS sum of the pivot is equal to the RHS of the pivot. 	
 */
 
