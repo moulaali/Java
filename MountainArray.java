@@ -2,7 +2,7 @@
 	Author : Shaik Faizan Roshan Ali
 	Email : alsahercoder@gmail.com
 	Date : 19-sep-2020
-    Source: https://leetcode.com/problems/valid-mountain-array/
+    	Source: https://leetcode.com/problems/valid-mountain-array/
 	To check if the array is strictly increasing and then strictly decreasing. Any other sequence is neglected.
 */ 
 
@@ -12,8 +12,14 @@ public class MountainArray {
     
     public static void main (String[] args) {
         
-        int[] inputArray = {2, 4, 6, 10, 12, 9, 7, 1};
-        mountainArray(inputArray);
+        int[] testCase1 = {2, 4, 6, 10, 12, 9, 7, 1};
+        int[] failCase1 = {1, 4, 5, 2, 3, 10}; //random order
+        int[] failCase2 = {9, 8, 7, 6, 5, 10, 11}; // decreasing to Increasing
+        int[] emptyCase = {};
+        mountainArray(testCase1);
+        mountainArray(failCase1);
+        mountainArray(failCase2);
+        mountainArray(emptyCase);
         
     }
     
