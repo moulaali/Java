@@ -11,10 +11,22 @@ public class MergeSort {
     
     public static void main(String args[]) {
         
-        int[] array1 = {1, 3, 5};
-        int[] array2 = {2, 4, 6, 8};
+        int[] array1Test1 = {1, 3, 5};
+        int[] array2Test1 = {2, 4, 6, 8};
         
-        mergesort(array1, array2);
+        int[] array1Test2 = {2, 4, 6, 8};
+        int[] array2Test2 = {1, 3};
+        
+        int[] array1Test3 = {};
+        int[] array2Test3 = {1, 2, 3, 4};
+        
+        int[] array1Test4 = {2, 4, 5, 6, 8};
+        int[] array2Test4 = {};
+        
+        mergesort(array1Test1, array2Test1);
+        mergesort(array1Test2, array2Test2);
+        mergesort(array1Test3, array2Test3);
+        mergesort(array1Test4, array2Test4);
     }
     
     public static void mergesort(int arrayOne[], int arrayTwo[]) {
