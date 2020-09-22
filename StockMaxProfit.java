@@ -17,6 +17,12 @@ class StockMaxProfit {
     
     public static void stockMaxProfit(int[] stockArray) {
         
+	if( stockArray.length == 0) {
+            
+            System.out.println("The input Array is empty");    
+            return;
+        }
+	    
         int min = stockArray[0];
         int max = 0;
         int maxProfit = 0;
