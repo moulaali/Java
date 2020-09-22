@@ -43,7 +43,7 @@ class StockMaxProfit {
         } 
         
         System.out.println("Purchase date: " + minIndex + " Purchase Value: " + stockArray[minIndex] );
-        System.out.println("Sell date: " + maxIndex + " Sell date: " + stockArray[maxIndex] );
+        System.out.println("Sell date: " + maxIndex + " Sell value: " + stockArray[maxIndex] );
         System.out.println("Maximum profit gained: " + maxProfit);
     }
 }
