@@ -11,8 +11,10 @@ class StockMaxProfit {
     public static void main(String args[]) {
         
         int[] inputArray = {10, 11, 1, 13, 21, 3};
+	int[] testCase1 = {}; //returns empty case
         
         stockMaxProfit(inputArray);
+	stockMaxProfit(testCase1);
     }
     
     public static void stockMaxProfit(int[] stockArray) {
