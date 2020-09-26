@@ -28,12 +28,11 @@ class searchSubString {
 	    System.out.println("Not possible");
                    
         for(int index = 0; index < mainStringArray.length - subStringArray.length; index++ ) {
-            
-            occuredIndex = index;
-            
+           
+            int checkIndex = 0;
             for ( int subIndex = index; subIndex < subStringArray.length; subIndex ++ ) {
             	
-            	int checkIndex = 0;
+            	
             	
             	if( subStringArray[checkIndex] == mainStringArray[subIndex] ) {
             		
@@ -47,6 +46,6 @@ class searchSubString {
             
         }
 
-	System.out.println( "The first occurence of Index " +  occuredIndex );
+	System.out.println( "The first occurence of Index " +  Index );
     }
 } 
