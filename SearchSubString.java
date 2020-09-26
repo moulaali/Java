@@ -1,4 +1,9 @@
-/*package whatever //do not write package name here */
+/*
+  Author: Shaik Faizan Roshan Ali
+  Email: alsahercoder@gmail.com
+  Date: 26-Sep-2020
+  This program is for searching the subString;
+*/
 
 import java.util.*;
 
