@@ -21,23 +21,15 @@ class searchSubString {
         
         char[] mainStringArray = mainString.toCharArray();
         char[] subStringArray = subString.toCharArray();
-    
-	int occuredIndex = 0;
-   
-        if ( subStringArray.length > mainStringArray.length)
-	    System.out.println("Not possible");
                    
-        for(int index = 0; index < mainStringArray.length - subStringArray.length; index++ ) {
+        for(int index = 0; index < mainStringArray.length - subStringArray.length && subStringArray.length < mainStringArray.length; index++ ) {
            
             int checkIndex = 0;
             for ( int subIndex = index; subIndex < subStringArray.length; subIndex ++ ) {
-            	
-            	
-            	
+          
             	if( subStringArray[checkIndex] == mainStringArray[subIndex] ) {
             		
-            		checkIndex++;
-            	    
+            		checkIndex++;    
             	}
                
             	else 
@@ -45,7 +37,6 @@ class searchSubString {
             }
             
         }
-
 	System.out.println( "The first occurence of Index " +  Index );
     }
 } 
